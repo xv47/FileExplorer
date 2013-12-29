@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo" >       
+    </style>
+    <color name="bgColor">#d47425</color>  
+    <color name="White">#FFFFFF</color>  
+    <color name="hintColor">#cccccc</color>
+
+</resources>

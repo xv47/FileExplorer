@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor" >
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+	<RelativeLayout
+	    
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below= "@id/imageView1"
+	    android:padding="25dp"  >
+		<RelativeLayout 
+		    android:id="@+id/searchBar"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"		    
+		    android:layout_centerHorizontal="true"
+		    android:layout_marginTop="25dp">
+		    <Button
+		        android:id="@+id/skipButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"	        
+		        android:layout_alignParentRight="true"
+		        android:layout_alignParentTop="true"		        
+		        android:onClick="getfile"
+		        
+		        android:text="Browse"
+		        android:textColor="@color/White" />
+	
+		    <EditText
+		        android:id="@+id/editText"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_toLeftOf="@+id/skipButton"
+		        android:layout_alignParentLeft="true"
+		        android:ems="10"
+		        android:hint="File Name..."
+		        android:textSize="24sp"
+		        android:inputType="textPersonName"
+		        android:textColorHint="@color/hintColor" />
+		</RelativeLayout>
+
+	</RelativeLayout>	
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Osiris/workspace/Fileexplorer/libs/commons-io-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Osiris/workspace/Fileexplorer/libs/commons-codec-1.8.jar" sourcepath="C:/Users/Osiris/Java Libs/commons-codec-1.8/commons-codec-1.8-sources.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
